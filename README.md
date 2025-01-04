@@ -93,6 +93,7 @@ gui_label *my_label = new gui_label();
 my_label->create(0, 0);
 my_label->printf("Hello World!");
 my_label->destroy();
+delete my_label;
 ```
 ### Statically creating
 ```c
